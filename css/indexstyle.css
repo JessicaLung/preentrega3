@@ -1,0 +1,80 @@
+a{
+    text-decoration: none;
+}
+ul{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+}  
+li{
+        font-size:40px;       
+}
+p{
+        font-family: "red hat display";
+}
+#otrocolor{
+        color: #4dcb5b; 
+}
+.nose{
+        font-family: "red hat display" ;
+        color: brown;
+}
+.letra{
+font-family: "red hat display";
+}
+.lose{
+        background-color: darkgray;
+        border-style: solid;
+}
+input:default{
+        background-color: rgb(146, 140, 140);
+}
+@media screen and (max-width:1200px){
+        #grilla{
+        background-color: rgb(135, 141, 134);
+        }
+        ul{
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            list-style-type: none;
+            background-color: black;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100%;
+        }
+    }
+    @media  screen and (max-width:480px) {
+        #grilla{
+        background-color: black;
+        }
+        ul{
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            list-style-type: none;
+            background-color: black;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100%;
+        }
+    }
+    @media  screen and (max-width:320px) {
+        #grilla{
+            background-color: cadetblue;
+        }
+        ul{
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            list-style-type: none;
+            background-color: black;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100%;
+        }
+    }

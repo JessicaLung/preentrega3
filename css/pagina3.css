@@ -1,0 +1,48 @@
+.carta{
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(159, 27, 27);
+    height: 50%;
+    width: 30%;
+    align-content: center;
+    justify-content: space-around;
+    }
+    .padre{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        height: 10%;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    img{
+        width: 100%;
+    }
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: brown;
+    border: 6px;
+    padding: 8px;
+    margin: 8px;
+}
+.card-xl {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+    background-color: brown;
+}
+.content {
+ flex-wrap: 1;
+}
+.container {
+    background-color: white;
+}
