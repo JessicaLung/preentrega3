@@ -17,11 +17,12 @@ p{
         color: #4dcb5b; 
 }
 .nose{
-        font-family: "red hat display" ;
-        color: brown;
+        font-family: "Unna" ;
+        color: black;
 }
 .letra{
-font-family: "red hat display";
+font-family: "Unna";
+color: black;
 }
 .lose{
         background-color: darkgray;
@@ -31,50 +32,41 @@ input:default{
         background-color: rgb(146, 140, 140);
 }
 @media screen and (max-width:1200px){
-        #grilla{
-        background-color: rgb(135, 141, 134);
-        }
-        ul{
-            margin: 0%;
-            padding: 0%;
-            display: flex;
-            list-style-type: none;
-            background-color: black;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-            height: 100%;
-        }
+header{
+    background-color: black;
+}
+.letraUno{
+    color: white;
+}
+main{
+    background-color: black;
+}
+footer{
+    background-color: black;
+}
+
     }
+
+
     @media  screen and (max-width:480px) {
-        #grilla{
-        background-color: black;
-        }
-        ul{
-            margin: 0%;
-            padding: 0%;
-            display: flex;
-            list-style-type: none;
-            background-color: black;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-            height: 100%;
-        }
+  
     }
+
+
     @media  screen and (max-width:320px) {
-        #grilla{
-            background-color: cadetblue;
-        }
-        ul{
-            margin: 0%;
-            padding: 0%;
-            display: flex;
-            list-style-type: none;
-            background-color: black;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-            height: 100%;
-        }
+
     }
+.letraUno{
+    font-family: "Unna";
+    text-align: center;
+    font-size: 100px;
+}
+footer{
+    background-color: rgb(98, 7, 7);
+}
+h2{
+    color: white;
+}
+footer{
+    background-color: white;
+}

@@ -5,7 +5,7 @@
     grid-template-columns: 30% 40% 30%;
     grid-template-areas: "a1 a2 a2"
                          "a3 a3 a4"
-                         "a5 a6 a7";
+                         "a5 a6 a4";
     background-color: rgb(89, 7, 7);
     column-gap: 40px;
     row-gap: 40px;
@@ -49,27 +49,40 @@ img{
     max-height: 100%;
 }
 @media screen and (max-width:1200px){
-.letraDos{
-    background-color: black;
-}
-.lUno{
-    background-color: black;
-}
-#grillaUno{
-    background-color: black;
-}
-.tipodeletra{
-    background-color: black;
-}
+    .lUno{
+        background-color: black;
+    }
+    .letraDos{
+        background-color: black;
+    }
+    #grillaUno{
+        background-color: black;
+    }
+    #grillaDos{
+        background-color: black;
+    }
+    #grillaTres{
+        background-color: black;
+    }
+    .tipodeletra{
+        background-color: black;
+    }
+
 }
 @media  screen and (max-width:480px) {
-    .letraDos{
-        background-color: blueviolet;
-    }
     .lUno{
         background-color: blueviolet;
     }
+    .letraDos{
+        background-color: blueviolet;
+    }
     #grillaUno{
+        background-color: blueviolet;
+    }
+    #grillaDos{
+        background-color: blueviolet;
+    }
+    #grillaTres{
         background-color: blueviolet;
     }
     .tipodeletra{
@@ -77,13 +90,19 @@ img{
     }
 }
 @media  screen and (max-width:320px) {
-    .letraDos{
-        background-color: blue;
-    }
     .lUno{
         background-color: blue;
     }
+    .letraDos{
+        background-color: blue;
+    }
     #grillaUno{
+        background-color: blue;
+    }
+    #grillaDos{
+        background-color: blue;
+    }
+    #grillaTres{
         background-color: blue;
     }
     .tipodeletra{
@@ -211,4 +230,9 @@ grid-area: a3;
 }
 header{
     background-color: rgb(89, 7, 7);
+}
+
+.otraletra{
+    color: white;
+    font-family: "Unna";
 }

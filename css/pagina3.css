@@ -1,48 +1,58 @@
-.carta{
-    display:flex;
-    flex-direction:column;
-    background-color: rgb(159, 27, 27);
-    height: 50%;
-    width: 30%;
-    align-content: center;
-    justify-content: space-around;
-    }
-    .padre{
-        background-color: white;
-        display: flex;
-        flex-direction: row;
-        height: 10%;
-        width: 100%;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    img{
-        width: 100%;
-    }
 .row {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     padding: 8px;
 }
 .card {
     display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    background-color: brown;
+    background-color: rgb(89, 7, 7);
     border: 6px;
     padding: 8px;
     margin: 8px;
-}
-.card-xl {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 3;
-    background-color: brown;
+
 }
 .content {
  flex-wrap: 1;
+ background-color: rgb(89, 7, 7);
 }
 .container {
-    background-color: white;
+    background-color: rgb(89, 7, 7);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.letraTres{
+    font-family: "Unna";
+    text-align: center;
+    font-size: 100px;
+}
+main{
+    background-color: rgb(89, 7, 7);
+}
+footer{
+    background-color: rgb(89, 7, 7);
+}
+.tipodeletra{
+font-family: "Unna";
+color: white;
+}
+.otrocolor{
+font-family: "Unna";
+color: white;
+background-color: rgb(89, 7, 7);
+text-align: center;
+}
+.tipoletra{
+font-family: "Unna";
+color: white;
+background-color: rgb(89, 7, 7);
+text-align: center;
+font-size: 100px;
+}
+header{
+    background-color: rgb(89, 7, 7);
+}
+.imagen{
+ width: 50%;
+ height: 60%;
 }
